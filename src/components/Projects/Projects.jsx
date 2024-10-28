@@ -7,7 +7,7 @@ import { websiteDetail } from "../../data/data";
 
 const Projects = () => {
   const [searchTerm, setSearchTerm] = useState("");
-
+  
   return (
     <div className="container mx-auto px-4 py-14">
       <Heading title="Portfolio" />
